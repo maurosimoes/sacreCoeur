@@ -66,10 +66,6 @@ Isso abrirá a interface gráfica do Cypress, onde você pode selecionar e rodar
 - Os cenários de teste são escritos em Gherkin no arquivo `cypress/e2e/formulario.feature`.
 - As implementações dos steps estão em `cypress/support/steps/formulario.steps.js`.
 
-## Relatórios
-
-Os resultados dos testes podem ser integrados com o Allure, gerando relatórios na pasta `allure-results/` (configuração adicional pode ser necessária).
-
 ## Contribuição
 
 1. Fork este repositório.
