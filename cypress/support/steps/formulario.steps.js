@@ -1,13 +1,15 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import address from "../../config/address.json";
 import { FormularioPage } from "../pages/formulario.page.js";
 import { formularioElements } from "../elements/formulario.elements";
 
 const formulario = new FormularioPage();
 
-Given("que o usuário está na página inicial do formulário", () => {
-  formulario.visit(address.formulario.url);
-});
+Given(
+  "que o usuário está na página inicial do formulário {string}",
+  (formURL) => {
+    formulario.visit(formURL);
+  }
+);
 
 When(
   "o usuário preenche o campo Nome do estudante com {string}, sobrenome {string}",
