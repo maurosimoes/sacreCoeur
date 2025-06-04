@@ -1,7 +1,7 @@
 Feature: Preencher Formulário
 
     Background:
-        Given que o usuário está na página inicial do formulário "https://www.jotform.com/build/251535524251653"
+        Given que o usuário está na página inicial do formulário "https://www.jotform.com/form/251535524251653"
 
     Scenario: Preencher o formulário
         #Formulário de Dados dos Alunos
