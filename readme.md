@@ -34,7 +34,7 @@ Automação de testes end-to-end utilizando [Cypress](https://www.cypress.io/) c
 
 1. Clone o repositório:
    ```sh
-   git clone <url-do-repositorio>
+   git clone git@github.com:maurosimoes/sacreCoeur.git
    cd sacreCoeur
    ```
 
