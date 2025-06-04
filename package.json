@@ -1,0 +1,16 @@
+{
+  "name": "sacrecoeur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/steps"
+  },
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
